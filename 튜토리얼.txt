@@ -1,0 +1,28 @@
+
+실행하기 명령어 = npm start
+빌드하기 = npm build
+배포하기 = npm run deploy
+
+기본 설치 = https://diggingfun.tistory.com/227
+빌드 하기 = https://lts0606.tistory.com/261
+패키징 (하단쪽 설명) = http://trvoid.blogspot.com/2019/11/electron.html
+배포파일 만들기 = https://streamls.tistory.com/144
+
+일렉트론에서 리액트 사용하기 = https://kyuhyuk.kr/article/electron/2020/02/14/Electron-React
+일렉트론 구조 설명 = https://hsoh1990.github.io/2019/01/18/electron-tutorial/
+
+vue.js 관련 설치할때 문제 생기는 경우 = https://nm817.tistory.com/35
+vue server 실행하기 = npm run serve
+electron 으로 실행하기 = npm run electron:serve
+electron 으로 배포하기 = npm run electron:build
+실행한 서버 종료하기 = ctrl + c 입력 후 y 입력
+
+클리앙 1강 = https://www.clien.net/service/board/lecture/12267795
+2강 = https://www.clien.net/service/board/lecture/12288374
+3강 = https://www.clien.net/service/board/lecture/12328153
+4강 = https://www.clien.net/service/board/lecture/12345695
+
+유튜브 = https://www.youtube.com/watch?v=jafdNfriWpU
+
+공식문서 = https://www.electronjs.org/docs
+공식문서 튜토리얼 = https://www.electronjs.org/docs/tutorial
