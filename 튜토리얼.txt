@@ -11,11 +11,21 @@
 일렉트론에서 리액트 사용하기 = https://kyuhyuk.kr/article/electron/2020/02/14/Electron-React
 일렉트론 구조 설명 = https://hsoh1990.github.io/2019/01/18/electron-tutorial/
 
+
+
+설치요약 = https://itnext.io/electron-application-with-vue-js-and-vuetify-f2a1f9c749b8
+vue 설치하기 = npm install -g @vue/cli
+vue 로 프로젝트 생성 = vue create [프로젝트명]
+프로젝트 안에서 vuetify 설치하기 = vue add vuetify
+vue 프로젝트 안에서 = vue add electron-builder
+
 vue.js 관련 설치할때 문제 생기는 경우 = https://nm817.tistory.com/35
 vue server 실행하기 = npm run serve
 electron 으로 실행하기 = npm run electron:serve
 electron 으로 배포하기 = npm run electron:build
 실행한 서버 종료하기 = ctrl + c 입력 후 y 입력
+
+
 
 클리앙 1강 = https://www.clien.net/service/board/lecture/12267795
 2강 = https://www.clien.net/service/board/lecture/12288374
@@ -26,3 +36,16 @@ electron 으로 배포하기 = npm run electron:build
 
 공식문서 = https://www.electronjs.org/docs
 공식문서 튜토리얼 = https://www.electronjs.org/docs/tutorial
+공식문서 한글화 (버전 낮음) = https://tinydew4.github.io/electron-ko/docs/
+
+타이틀 커스텀 - https://www.npmjs.com/package/custom-electron-titlebar
+background.js 의 BrowserWindow 옵션 설정은 아래와 같아야 함
+titleBarStyle: "hidden"
+frame: false
+webPreferences: { enableRemoteModule: true }
+
+
+---- 에러 요약
+ipcRenderer 사용할 때 에러가 발생할 경우
+vue.config.js 파일에 아래 솔루션을 추가
+참고 - https://stackoverflow.com/questions/62777834/how-fix-dirname-not-defined-when-using-electron-events-with-vue
